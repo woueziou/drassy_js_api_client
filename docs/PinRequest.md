@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.PinRequest
+# Drassyapp.PinRequest
 
 ## Properties
 

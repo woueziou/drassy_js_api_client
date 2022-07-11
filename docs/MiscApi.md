@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.MiscApi
+# Drassyapp.MiscApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -17,17 +17,17 @@ Auth Phone Device
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.MiscApi();
+let apiInstance = new Drassyapp.MiscApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.PhoneVerificationModel() // PhoneVerificationModel | 
+  'body': new Drassyapp.PhoneVerificationModel() // PhoneVerificationModel | 
 };
 apiInstance.postMiscPhone(opts, (error, data, response) => {
   if (error) {

@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.PhoneVerificationModel
+# Drassyapp.PhoneVerificationModel
 
 ## Properties
 

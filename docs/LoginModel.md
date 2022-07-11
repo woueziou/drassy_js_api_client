@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.LoginModel
+# Drassyapp.LoginModel
 
 ## Properties
 

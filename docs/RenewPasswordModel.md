@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.RenewPasswordModel
+# Drassyapp.RenewPasswordModel
 
 ## Properties
 

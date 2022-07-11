@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.InvestSubscribeResponse
+# Drassyapp.InvestSubscribeResponse
 
 ## Properties
 

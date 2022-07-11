@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.CreateTransactionSchema
+# Drassyapp.CreateTransactionSchema
 
 ## Properties
 

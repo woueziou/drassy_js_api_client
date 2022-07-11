@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.UserInfoResponse
+# Drassyapp.UserInfoResponse
 
 ## Properties
 

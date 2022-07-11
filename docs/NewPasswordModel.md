@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.NewPasswordModel
+# Drassyapp.NewPasswordModel
 
 ## Properties
 

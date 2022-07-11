@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.FixedLoadApi
+# Drassyapp.FixedLoadApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -21,15 +21,15 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FixedLoadApi();
+let apiInstance = new Drassyapp.FixedLoadApi();
 let id = "id_example"; // String | 
 apiInstance.deleteFixedloadId(id, (error, data, response) => {
   if (error) {
@@ -72,15 +72,15 @@ List user fixed Load
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FixedLoadApi();
+let apiInstance = new Drassyapp.FixedLoadApi();
 apiInstance.getFixedload((error, data, response) => {
   if (error) {
     console.error(error);
@@ -119,17 +119,17 @@ Return fixed laod
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FixedLoadApi();
+let apiInstance = new Drassyapp.FixedLoadApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.FixedLoadModelRequest() // FixedLoadModelRequest | 
+  'body': new Drassyapp.FixedLoadModelRequest() // FixedLoadModelRequest | 
 };
 apiInstance.postFixedloadCreate(opts, (error, data, response) => {
   if (error) {

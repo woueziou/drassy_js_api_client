@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.FixedLoadModelRequest
+# Drassyapp.FixedLoadModelRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.InvestApi
+# Drassyapp.InvestApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -20,15 +20,15 @@ Return invest option list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.InvestApi();
+let apiInstance = new Drassyapp.InvestApi();
 apiInstance.getInvestList((error, data, response) => {
   if (error) {
     console.error(error);
@@ -67,17 +67,17 @@ Return fixed laod
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.InvestApi();
+let apiInstance = new Drassyapp.InvestApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.InvestSubscribeModel() // InvestSubscribeModel | 
+  'body': new Drassyapp.InvestSubscribeModel() // InvestSubscribeModel | 
 };
 apiInstance.postInvestSubscribe(opts, (error, data, response) => {
   if (error) {

@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.FinanceApi
+# Drassyapp.FinanceApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -19,15 +19,15 @@ Get Client financial profile
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FinanceApi();
+let apiInstance = new Drassyapp.FinanceApi();
 apiInstance.getFinancialProfile((error, data, response) => {
   if (error) {
     console.error(error);
@@ -64,17 +64,17 @@ Update finance
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FinanceApi();
+let apiInstance = new Drassyapp.FinanceApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.FinancialInfoUpdateModel() // FinancialInfoUpdateModel | 
+  'body': new Drassyapp.FinancialInfoUpdateModel() // FinancialInfoUpdateModel | 
 };
 apiInstance.patchFinancialUpdate(opts, (error, data, response) => {
   if (error) {
@@ -115,17 +115,17 @@ Create Finance
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.FinanceApi();
+let apiInstance = new Drassyapp.FinanceApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.NewFinancialInfoModel() // NewFinancialInfoModel | 
+  'body': new Drassyapp.NewFinancialInfoModel() // NewFinancialInfoModel | 
 };
 apiInstance.postFinancialCreate(opts, (error, data, response) => {
   if (error) {

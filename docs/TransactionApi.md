@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.TransactionApi
+# Drassyapp.TransactionApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -24,15 +24,15 @@ Return String
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 let id = "id_example"; // String | 
 apiInstance.deleteTransactionDeleteId(id, (error, data, response) => {
   if (error) {
@@ -75,15 +75,15 @@ Return Transactions
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 let opts = {
   'date': 56 // Number | 
 };
@@ -128,15 +128,15 @@ Return Transactions
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 let opts = {
   'start': 56, // Number | 
   'end': 56 // Number | 
@@ -183,15 +183,15 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 apiInstance.getTransactionSearch((error, data, response) => {
   if (error) {
     console.error(error);
@@ -230,17 +230,17 @@ Create Transaction
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.CreateTransactionSchema() // CreateTransactionSchema | 
+  'body': new Drassyapp.CreateTransactionSchema() // CreateTransactionSchema | 
 };
 apiInstance.postTransactionCreate(opts, (error, data, response) => {
   if (error) {
@@ -283,17 +283,17 @@ Modify Transaction
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.TransactionApi();
+let apiInstance = new Drassyapp.TransactionApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.UpdateTransactionSchema() // UpdateTransactionSchema | 
+  'body': new Drassyapp.UpdateTransactionSchema() // UpdateTransactionSchema | 
 };
 apiInstance.putTransactionUpdate(opts, (error, data, response) => {
   if (error) {

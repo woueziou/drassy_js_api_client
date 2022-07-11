@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.FinancialInfoResponse
+# Drassyapp.FinancialInfoResponse
 
 ## Properties
 

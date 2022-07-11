@@ -1,0 +1,1 @@
+openapi-generator-cli generate -i swagger.yaml -g javascript -o .

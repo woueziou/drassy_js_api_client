@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.RenewToken
+# Drassyapp.RenewToken
 
 ## Properties
 

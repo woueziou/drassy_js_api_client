@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.CountryResponse
+# Drassyapp.CountryResponse
 
 ## Properties
 

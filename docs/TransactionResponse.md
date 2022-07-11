@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.TransactionResponse
+# Drassyapp.TransactionResponse
 
 ## Properties
 

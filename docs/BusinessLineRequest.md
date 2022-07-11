@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.BusinessLineRequest
+# Drassyapp.BusinessLineRequest
 
 ## Properties
 

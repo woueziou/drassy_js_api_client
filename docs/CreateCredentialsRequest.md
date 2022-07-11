@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.CreateCredentialsRequest
+# Drassyapp.CreateCredentialsRequest
 
 ## Properties
 

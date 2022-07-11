@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.TransactionType
+# Drassyapp.TransactionType
 
 ## Properties
 

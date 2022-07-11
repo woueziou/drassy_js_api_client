@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.ParamsApi
+# Drassyapp.ParamsApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -32,15 +32,15 @@ Create Revenue
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let id = 3.4; // Number | 
 apiInstance.deleteParamsProfessionDeleteId(id, (error, data, response) => {
   if (error) {
@@ -81,15 +81,15 @@ Create Revenue
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let id = 3.4; // Number | 
 apiInstance.deleteParamsRevenueDeleteId(id, (error, data, response) => {
   if (error) {
@@ -130,15 +130,15 @@ Create wages
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let id = 3.4; // Number | 
 apiInstance.deleteParamsWagesDeleteId(id, (error, data, response) => {
   if (error) {
@@ -181,15 +181,15 @@ Return profession list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsBusinesslineList((error, data, response) => {
   if (error) {
     console.error(error);
@@ -228,15 +228,15 @@ Return Transaction Type list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsFinancialsituation((error, data, response) => {
   if (error) {
     console.error(error);
@@ -275,15 +275,15 @@ Return Country list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsListcountries((error, data, response) => {
   if (error) {
     console.error(error);
@@ -322,15 +322,15 @@ Return operation list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsMatrimonials((error, data, response) => {
   if (error) {
     console.error(error);
@@ -369,15 +369,15 @@ Return operation list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsOperation((error, data, response) => {
   if (error) {
     console.error(error);
@@ -416,15 +416,15 @@ Return profession list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsProfessionList((error, data, response) => {
   if (error) {
     console.error(error);
@@ -463,15 +463,15 @@ Return Revenue list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsRevenueList((error, data, response) => {
   if (error) {
     console.error(error);
@@ -510,15 +510,15 @@ Return Transaction Type list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsTransactiontype((error, data, response) => {
   if (error) {
     console.error(error);
@@ -557,15 +557,15 @@ Return Wages list
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 apiInstance.getParamsWagesList((error, data, response) => {
   if (error) {
     console.error(error);
@@ -602,17 +602,17 @@ Create profession
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.BusinessLineRequest() // BusinessLineRequest | 
+  'body': new Drassyapp.BusinessLineRequest() // BusinessLineRequest | 
 };
 apiInstance.postParamsBusinesslineNew(opts, (error, data, response) => {
   if (error) {
@@ -653,17 +653,17 @@ Create profession
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.BusinessLineRequest() // BusinessLineRequest | 
+  'body': new Drassyapp.BusinessLineRequest() // BusinessLineRequest | 
 };
 apiInstance.postParamsProfessionNew(opts, (error, data, response) => {
   if (error) {
@@ -704,17 +704,17 @@ Create Revenue
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.BusinessLineRequest() // BusinessLineRequest | 
+  'body': new Drassyapp.BusinessLineRequest() // BusinessLineRequest | 
 };
 apiInstance.postParamsRevenueNew(opts, (error, data, response) => {
   if (error) {
@@ -755,17 +755,17 @@ Create wages
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.ParamsApi();
+let apiInstance = new Drassyapp.ParamsApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.BusinessLineRequest() // BusinessLineRequest | 
+  'body': new Drassyapp.BusinessLineRequest() // BusinessLineRequest | 
 };
 apiInstance.postParamsWagesNew(opts, (error, data, response) => {
   if (error) {

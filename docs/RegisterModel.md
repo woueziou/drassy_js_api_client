@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.RegisterModel
+# Drassyapp.RegisterModel
 
 ## Properties
 

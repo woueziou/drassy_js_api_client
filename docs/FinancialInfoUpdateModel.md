@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.FinancialInfoUpdateModel
+# Drassyapp.FinancialInfoUpdateModel
 
 ## Properties
 

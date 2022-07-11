@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.AuthApi
+# Drassyapp.AuthApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -27,15 +27,15 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 apiInstance.getAuthWhoami((error, data, response) => {
   if (error) {
     console.error(error);
@@ -74,17 +74,17 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.NewPasswordModel() // NewPasswordModel | 
+  'body': new Drassyapp.NewPasswordModel() // NewPasswordModel | 
 };
 apiInstance.postAuthChangepassword(opts, (error, data, response) => {
   if (error) {
@@ -127,17 +127,17 @@ Return String
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.CreateCredentialsRequest() // CreateCredentialsRequest | 
+  'body': new Drassyapp.CreateCredentialsRequest() // CreateCredentialsRequest | 
 };
 apiInstance.postAuthCreateCredential(opts, (error, data, response) => {
   if (error) {
@@ -180,17 +180,17 @@ Return String
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.LoginModel() // LoginModel | 
+  'body': new Drassyapp.LoginModel() // LoginModel | 
 };
 apiInstance.postAuthLogin(opts, (error, data, response) => {
   if (error) {
@@ -233,17 +233,17 @@ Return String
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.RegisterModel() // RegisterModel | 
+  'body': new Drassyapp.RegisterModel() // RegisterModel | 
 };
 apiInstance.postAuthRegister(opts, (error, data, response) => {
   if (error) {
@@ -284,17 +284,17 @@ User Info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.RenewPasswordModel() // RenewPasswordModel | 
+  'body': new Drassyapp.RenewPasswordModel() // RenewPasswordModel | 
 };
 apiInstance.postAuthReinitpassword(opts, (error, data, response) => {
   if (error) {
@@ -337,17 +337,17 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.RenewToken() // RenewToken | 
+  'body': new Drassyapp.RenewToken() // RenewToken | 
 };
 apiInstance.postAuthRenew(opts, (error, data, response) => {
   if (error) {
@@ -390,17 +390,17 @@ Return User info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.PinRequest() // PinRequest | 
+  'body': new Drassyapp.PinRequest() // PinRequest | 
 };
 apiInstance.postAuthRequestpin(opts, (error, data, response) => {
   if (error) {
@@ -441,17 +441,17 @@ User Info
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.AuthApi();
+let apiInstance = new Drassyapp.AuthApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.VerifyPinModel() // VerifyPinModel | 
+  'body': new Drassyapp.VerifyPinModel() // VerifyPinModel | 
 };
 apiInstance.postAuthVerifypin(opts, (error, data, response) => {
   if (error) {

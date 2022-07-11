@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.CreateCountryModel
+# Drassyapp.CreateCountryModel
 
 ## Properties
 

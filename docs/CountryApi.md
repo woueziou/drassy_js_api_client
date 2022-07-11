@@ -1,4 +1,4 @@
-# DrassybackendServerApiDoc.CountryApi
+# Drassyapp.CountryApi
 
 All URIs are relative to *http://localhost:2330*
 
@@ -17,17 +17,17 @@ Create a new country
 ### Example
 
 ```javascript
-import DrassybackendServerApiDoc from 'drassybackend_server_api_doc';
-let defaultClient = DrassybackendServerApiDoc.ApiClient.instance;
+import Drassyapp from 'drassyapp';
+let defaultClient = Drassyapp.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
 Bearer.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Bearer.apiKeyPrefix = 'Token';
 
-let apiInstance = new DrassybackendServerApiDoc.CountryApi();
+let apiInstance = new Drassyapp.CountryApi();
 let opts = {
-  'body': new DrassybackendServerApiDoc.CreateCountryModel() // CreateCountryModel | 
+  'body': new Drassyapp.CreateCountryModel() // CreateCountryModel | 
 };
 apiInstance.postCountryCreate(opts, (error, data, response) => {
   if (error) {
